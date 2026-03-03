@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Disenchanter",
+    "description": "Disenchanter Behavior Pack",
+    "uuid": "42fd8c06-45d3-7afe-1607-57fd52f3d714",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "metadata": {
+    "authors": ["Chunbae0523"],
+    "generated_with": {
+      "blockbench_block_wizard": ["1.6.1"]
+    },
+    "product_type": "addon"
+  },
+  "modules": [
+    {
+      "description": "Behavior Pack Data",
+      "version": [1, 0, 0],
+      "uuid": "90802703-9231-f2e2-f453-f827d995604c",
+      "type": "data"
+    },
+    {
+      "description": "Script module",
+      "type": "script",
+      "uuid": "d35c8e22-825b-4357-96a8-6f68971f1f9e",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    { "uuid": "df7aa2e9-d481-3079-fe2b-af5285022494", "version": [1, 0, 0] },
+    { "module_name": "@minecraft/server", "version": "2.1.0" }
+  ]
+}

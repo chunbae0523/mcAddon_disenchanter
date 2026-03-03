@@ -1,0 +1,4 @@
+tile.chunbae0523:disenchanter.name=Disenchanter
+entity.chunbae0523:display_arrow.name=display_arrow
+disenchanter.msg.cannot_disenchant=§cYou must be holding an enchanted item!
+disenchanter.msg.sneak_click_to_cancel=§dSneak+click to cancel disenchant

@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Disenchanter",
+		"description": "Disenchanter Resource Pack",
+		"uuid": "df7aa2e9-d481-3079-fe2b-af5285022494",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Chunbae0523"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.6.1"],
+			"blockbench_entity_wizard": ["1.8.2"]
+		},
+		"product_type": "addon"
+	},
+	"modules": [
+		{
+			"description": "Disenchanter",
+			"type": "resources",
+			"uuid": "7e7f9ddd-93cb-6ffe-bee3-3f30df6072d9",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "42fd8c06-45d3-7afe-1607-57fd52f3d714",
+			"version": [1, 0, 0]
+		}
+	]
+}

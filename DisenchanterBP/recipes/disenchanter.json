@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "chunbae0523:disenchanter"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [" G ", "ACA", "OOO"],
+    "key": {
+      "A": { "item": "minecraft:amethyst_shard" },
+      "G": { "item": "minecraft:grindstone" },
+      "C": { "item": "minecraft:crying_obsidian" },
+      "O": { "item": "minecraft:obsidian" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:crying_obsidian"
+      },
+      {
+        "item": "minecraft:grindstone"
+      },
+      {
+        "item": "minecraft:obsidian"
+      }
+    ],
+    "result": {
+      "item": "chunbae0523:disenchanter"
+    }
+  }
+}
