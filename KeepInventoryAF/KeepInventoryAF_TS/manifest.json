@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "KeepInventoryAF",
+    "description": "A behavior pack that keeps inventory on death without needing to change the game rule.",
+    "uuid": "7bcad974-505f-4e90-a1c4-c879b7374d43",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "331d1f69-4b24-4f7d-943b-0b883e7e8427",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Script module",
+      "type": "script",
+      "uuid": "c38a4ec3-f0e3-4e44-a142-720683230094",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": ["chunbae0523"],
+    "generated_with": {
+      "blockception-minecraft-bedrock": ["9.0.20"]
+    },
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    }
+  ]
+}
