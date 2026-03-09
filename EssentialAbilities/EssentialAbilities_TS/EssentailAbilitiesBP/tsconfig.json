@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                /* 마인크래프트 엔진 호환 버전 */
+    "module": "es2020",                /* 모듈 시스템 설정 */
+    "moduleResolution": "node",        /* 모듈 해석 방식 */
+    "lib": ["es2020", "DOM"],                 /* 사용할 환경 라이브러리 */
+    "outDir": "./scripts",             /* 빌드된 .js 파일이 저장될 폴더 */
+    "rootDir": "./src",                /* 원본 .ts 파일이 있는 폴더 */
+    "strict": true,                    /* 엄격한 타입 체크 (권장) */
+    "noImplicitAny": true,             /* 'any' 타입 자동 지정 금지 */
+    "esModuleInterop": true,           /* CommonJS 모듈과 호환성 유지 */
+    "skipLibCheck": true,              /* 라이브러리 파일(.d.ts) 체크 건너뛰기 */
+    "forceConsistentCasingInFileNames": true /* 파일명 대소문자 구분 강제 */
+  },
+  "include": ["src/**/*"],             /* 변환할 대상 폴더 */
+  "exclude": ["node_modules"]          /* 제외할 폴더 */
+}

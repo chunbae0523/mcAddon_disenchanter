@@ -1,0 +1,91 @@
+## 아이템 및 기본 메시지
+skill.book.received=§a숙련의 서를 획득했습니다!
+skill.book.activated=§d잉크가 빛나며 형태가 변합니다... 책이 활성화되었습니다.
+
+item.chunbae0523:skill_book.name=숙련의 서
+
+## UI 텍스트
+skill.ui.title=§l숙련의 서
+skill.ui.body=§r§d§l경험치를 소모하여 능력을 해금하세요!\n\n§r§g보유 중인 경험치 (XP): §e%s 레벨§r
+skill.ui.mode.learn=§q§l[ 모드: 능력 습득 (+) ]§r\n§8§o클릭하여 회수 모드로 전환
+skill.ui.mode.forget=§4§l[ 모드: 능력 회수 (-) ]§r\n§8§o클릭하여 습득 모드로 전환
+skill.ui.back=메인 화면으로 돌아가기
+
+## 상태 및 에러 메시지
+skill.status.mastered=§q[습득함]
+skill.status.max=§q[최고 레벨]
+skill.status.unknown=§j[미해금]
+skill.status.cost=비용: %sL
+skill.status.learn=§q§l[습득]: §p%sL
+skill.status.forget=§m§l[회수]: §p%sL
+
+## 경고 메시지
+skill.warn.need_origin=§c상위 단계의 길을 먼저 습득해야 합니다!
+skill.warn.need_forget_under=§c하위 직업이 모두 비활성화된 상태여야 합니다.
+skill.warn.cant_forget_origin=§c하위 능력이 활성화된 상태에서는 직업을 회수할 수 없습니다.
+skill.warn.low_level=§c경험치가 부족합니다. (필요: §l%s§r§c 레벨)
+
+skill.cooldown.wait=§c남은 재사용 대기시간: %s초
+skill.overlord.already_exist=§c이미 저장중인 객체가 존재합니다!
+skill.text.block_not_exist=§c블록이 존재하지 않습니다!
+skill.text.top_is_bedrock=§c기반암 위로 순간이동할 수 없습니다!
+skill.text.strong_entity=§c강력한 적은 봉인할 수 없습니다.
+
+## 스킬 트리 텍스트
+skill.tree.industry.title=챕터 I: 생존
+skill.tree.industry.name=모험의 길
+skill.tree.industry.desc=패시브: 고통의 미식가
+
+skill.tree.industry.miner.name=광부
+skill.tree.industry.miner.level1=성급함 I
+skill.tree.industry.miner.level2=성급함 II
+skill.tree.industry.miner.level3=성급함 II, §l야간 투시
+
+skill.tree.industry.lumber.name=벌목꾼
+skill.tree.industry.lumber.level1=벌목
+skill.tree.industry.lumber.level2=벌목, 행운아
+
+skill.tree.industry.pioneer.name=탐험가
+skill.tree.industry.pioneer.level1=신속 I
+skill.tree.industry.pioneer.level2=신속 II
+skill.tree.industry.pioneer.level3=신속 II, §l불꽃놀이
+
+skill.tree.might.title=챕터 II: 힘
+skill.tree.might.root.name=투지의 길
+skill.tree.might.root.desc=패시브: 용맹
+
+skill.tree.might.berserker.name=전사
+skill.tree.might.berserker.level1=힘 I
+skill.tree.might.berserker.level2=힘 II
+skill.tree.might.berserker.level3=힘 II, §l흡혈
+
+skill.tree.might.sentinel.name=파수꾼
+skill.tree.might.sentinel.level1=저항 I
+skill.tree.might.sentinel.level2=저항 I, 체력 +4
+
+skill.tree.might.ranger.name=궁수
+skill.tree.might.ranger.level1=투사체 피해*1.2
+skill.tree.might.ranger.level2=투사체 피해*1.5
+skill.tree.might.ranger.level3=투사체 피해*2
+
+skill.tree.agility.title=챕터 III: 계시
+skill.tree.agility.root.name=숙련의 길
+skill.tree.agility.root.desc=숙련의 서 권능 해금
+
+skill.tree.agility.teleporter.name=유랑자
+skill.tree.agility.teleporter.level1=순간이동
+skill.tree.agility.teleporter.level2=순간이동+
+skill.tree.agility.teleporter.level3=§l순간이동++
+
+skill.tree.agility.dreamer.name=몽상가
+skill.tree.agility.dreamer.level1=§l망상
+skill.tree.agility.dreamer.level2=§l몽유
+
+skill.tree.agility.overlord.name=군주
+skill.tree.agility.overlord.level1=§l봉인서
+
+skill.tree.industry.detail=§a§l모험의 길§r - 채굴, 탐험, 채집 등 모험에 필요한 능력을 제공합니다.§r\n§o§a패시브 - 고통의 미식가§r : 피해를 입을 때 §o(받은 피해량*1.5)§r만큼 허기를 채웁니다.§r\n§a§l[ 광부 ]§r - Lv1: §6성급함 I§r / Lv2: §6성급함 II§r / Lv3: §6성급함 II§r, §9야간 투시§r 상시 지급§r\n§a§l[ 벌목꾼 ]§r - Lv1: §q벌목§r / Lv2: §q벌목§r, §p행운아§r\n§p행운아§r: 나뭇잎 종류를 캘 때 §o(20%% 확률)§r로 사과가 드롭됩니다.§r\n§q벌목§r: 도끼 종류의 아이템을 들고 원목 블록을 벌목 시, 인접한 모든 원목을 벌목합니다.§r\n§a§l[ 탐험가 ]§r - Lv1: §b신속 I§r / Lv2: §b신속 II§r / Lv3: §b신속 II§r 상시 지급, §d불꽃놀이§r\n§d불꽃놀이§r: 서버 시간 5분 경과 시마다, 폭죽을 5개 제공합니다. (인벤토리가 가득 찬 경우 발동되지 않습니다.)§r\n
+
+skill.tree.might.detail=§4§l투지의 길§r - 전투, 생존에 필요한 능력을 제공합니다. §r\n§o§4패시브 - 용맹§r : 최대 체력 +4 (:heart::heart:)§r\n§4§l[ 전사 ]§r - Lv1: §4힘 I§r / Lv2: §4힘 II§r / Lv3: §4힘 II§r 상시 지급, §c흡혈§r\n§c흡혈§r: 근접 공격을 가할 때 §o(가한 피해량*0.1)§r만큼 체력을 회복합니다.§r\n§4§l[ 파수꾼 ]§r - Lv1: §7저항 I§r / Lv2: §7 저항 I§r 상시 지급, 최대 체력 +4(:heart::heart:)§r\n§4§l[ 궁수 ]§r - Lv1: 투사체 피해*1.2 / Lv2: 투사체 피해*1.5 / Lv3: 투사체 피해*2 적용§r\n
+
+skill.tree.agility.detail=§d§l숙련의 길§r - 기존에 사용할 수 없던 새로운 능력을 제공합니다. §r\n§o§d패시브 - 숙련의 서 권능 해금§r : 숙련의 서의 봉인을 해금합니다.§r\n§d§l[ 유랑자 ]§r - Lv1: §5순간이동§r / Lv2: §5순간이동+§r / Lv3: §5순간이동++§r\n§5순간이동§r: 숙련의 서를 들고 웅크리기+:light_mouse_left_button: 시 바라보고 있는 위치로 순간이동합니다 §o(쿨타임 30초)§r. 등급이 높아질수록 순간이동 거리가 증가합니다. §o(Lv1: 10블록 / Lv2: 50블록 / Lv3: 100블록)§r\n§d§l[ 몽상가 ]§r - Lv1: §1망상§r / Lv2: §9몽유§r\n§1망상§r: 숙련의 서를 버릴 시 현재 자신이 서있는 좌표상의 가장 높은 블록으로 순간이동합니다. 버린 숙련의 서는 사라집니다. 기반암 위로는 순간이동할 수 없습니다.§r\n§9몽유§r: 숙련의 서를 버릴 시 자신의 리스폰 위치로 순간이동합니다. 버린 숙련의 서는 사라집니다. 리스폰 위치 미지정 시 (0, 0)의 가장 높은 블록으로 순간이동합니다.§r\n§d§l[ 군주 ]§r - Lv1: §3봉인서§r\n§3봉인서§r: 모든 살아있는 개체를 봉인할 수 있습니다. 숙련의 서를 들고 엔티티를 대상으로 웅크리기+:light_mouse_right_button: 시 해당 엔티티를 봉인합니다. 블록 위에 사용 시 봉인된 엔티티를 소환합니다. 강력한 몬스터는 봉인할 수 없습니다.§r\n

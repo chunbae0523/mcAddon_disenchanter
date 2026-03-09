@@ -1,0 +1,91 @@
+## Items and Base Messages
+skill.book.received=§aYou have received the Skill Book!
+skill.book.activated=§dThe ink glows and its shape shifts... The book has been activated.
+
+item.chunbae0523:skill_book.name=Skill Book
+
+## UI Text
+skill.ui.title=§lSkill Book
+skill.ui.body=§r§d§lConsume XP to unlock abilities!\n\n§r§gCurrent Experience (XP): §eLevel %s§r
+skill.ui.mode.learn=§q§l[ Mode: Learn Skill (+) ]§r\n§8§oClick to switch to Reset Mode
+skill.ui.mode.forget=§4§l[ Mode: Reset Skill (-) ]§r\n§8§oClick to switch to Learn Mode
+skill.ui.back=Back to Main Menu
+
+## Status and Error Messages
+skill.status.mastered=§q[Learned]
+skill.status.max=§q[Max Level]
+skill.status.unknown=§j[Locked]
+skill.status.cost=Cost: %sL
+skill.status.learn=§q§l[Learn]: §p%sL
+skill.status.forget=§m§l[Reset]: §p%sL
+
+## Warning Messages
+skill.warn.need_origin=§cYou must learn the upper-tier path first!
+skill.warn.need_forget_under=§cAll sub-classes must be deactivated first.
+skill.warn.cant_forget_origin=§cCannot reset the path while sub-abilities are active.
+skill.warn.low_level=§cNot enough experience. (Required: §lLevel %s§r§c)
+
+skill.cooldown.wait=§cRemaining Cooldown: %s seconds
+skill.overlord.already_exist=§cAn entity is already being stored!
+skill.text.block_not_exist=§cBlock does not exist!
+skill.text.top_is_bedrock=§cCannot teleport onto bedrock!
+skill.text.strong_entity=§cPowerful enemies cannot be sealed.
+
+## Skill Tree Text
+skill.tree.industry.title=Chapter I: Survival
+skill.tree.industry.name=Path of Adventure
+skill.tree.industry.desc=Passive: Pain Gourmet
+
+skill.tree.industry.miner.name=Miner
+skill.tree.industry.miner.level1=Haste I
+skill.tree.industry.miner.level2=Haste II
+skill.tree.industry.miner.level3=Haste II, §lNight Vision
+
+skill.tree.industry.lumber.name=Lumberjack
+skill.tree.industry.lumber.level1=Timber
+skill.tree.industry.lumber.level2=Timber, Lucky One
+
+skill.tree.industry.pioneer.name=Explorer
+skill.tree.industry.pioneer.level1=Speed I
+skill.tree.industry.pioneer.level2=Speed II
+skill.tree.industry.pioneer.level3=Speed II, §lFireworks
+
+skill.tree.might.title=Chapter II: Might
+skill.tree.might.root.name=Path of Will
+skill.tree.might.root.desc=Passive: Valor
+
+skill.tree.might.berserker.name=Warrior
+skill.tree.might.berserker.level1=Strength I
+skill.tree.might.berserker.level2=Strength II
+skill.tree.might.berserker.level3=Strength II, §lLifesteal
+
+skill.tree.might.sentinel.name=Sentinel
+skill.tree.might.sentinel.level1=Resistance I
+skill.tree.might.sentinel.level2=Resistance I, HP +4
+
+skill.tree.might.ranger.name=Ranger
+skill.tree.might.ranger.level1=Projectile Damage *1.2
+skill.tree.might.ranger.level2=Projectile Damage *1.5
+skill.tree.might.ranger.level3=Projectile Damage *2
+
+skill.tree.agility.title=Chapter III: Revelation
+skill.tree.agility.root.name=Path of Mastery
+skill.tree.agility.root.desc=Unlock Skill Book Authority
+
+skill.tree.agility.teleporter.name=Wanderer
+skill.tree.agility.teleporter.level1=Teleport
+skill.tree.agility.teleporter.level2=Teleport+
+skill.tree.agility.teleporter.level3=§lTeleport++
+
+skill.tree.agility.dreamer.name=Dreamer
+skill.tree.agility.dreamer.level1=§lDelusion
+skill.tree.agility.dreamer.level2=§lSleepwalk
+
+skill.tree.agility.overlord.name=Overlord
+skill.tree.agility.overlord.level1=§lSealing Tome
+
+skill.tree.industry.detail=§a§lPath of Adventure§r - Provides essential skills for mining, exploration, and gathering.§r\n§o§aPassive - Pain Gourmet§r: Fills hunger by §o(Damage Taken * 1.5)§r when receiving damage.§r\n§a§l[ Miner ]§r - Lv1: §6Haste I§r / Lv2: §6Haste II§r / Lv3: §6Haste II§r, §9Night Vision§r (Permanent)§r\n§a§l[ Lumberjack ]§r - Lv1: §qTimber§r / Lv2: §qTimber§r, §pLucky One§r\n§pLucky One§r: Dropping apples from leaves with a §o(20%% probability)§r.§r\n§qTimber§r: While holding an axe, chopping a log block will break all adjacent logs.§r\n§a§l[ Explorer ]§r - Lv1: §bSpeed I§r / Lv2: §bSpeed II§r / Lv3: §bSpeed II§r (Permanent), §dFireworks§r\n§dFireworks§r: Provides 5 fireworks every 5 minutes of server time. (Does not trigger if inventory is full.)§r\n
+
+skill.tree.might.detail=§4§lPath of Will§r - Provides abilities for combat and survival. §r\n§o§4Passive - Valor§r: Max Health +4 (:heart::heart:)§r\n§4§l[ Warrior ]§r - Lv1: §4Strength I§r / Lv2: §4Strength II§r / Lv3: §4Strength II§r (Permanent), §cLifesteal§r\n§cLifesteal§r: Heals health by §o(Damage Dealt * 0.1)§r when performing a melee attack.§r\n§4§l[ Sentinel ]§r - Lv1: §7Resistance I§r / Lv2: §7Resistance I§r (Permanent), Max Health +4 (:heart::heart:)§r\n§4§l[ Ranger ]§r - Lv1: Projectile Damage *1.2 / Lv2: Projectile Damage *1.5 / Lv3: Projectile Damage *2§r\n
+
+skill.tree.agility.detail=§d§lPath of Mastery§r - Provides new abilities previously inaccessible. §r\n§o§dPassive - Unlock Skill Book Authority§r: Unlocks the seal of the Skill Book.§r\n§d§l[ Wanderer ]§r - Lv1: §5Teleport§r / Lv2: §5Teleport+§r / Lv3: §5Teleport++§r\n§5Teleport§r: Sneak + :light_mouse_left_button: while holding the Skill Book to teleport to the looked-at location §o(Cooldown: 30s)§r. Distance increases with rank. §o(Lv1: 10 blocks / Lv2: 50 blocks / Lv3: 100 blocks)§r\n§d§l[ Dreamer ]§r - Lv1: §1Delusion§r / Lv2: §9Sleepwalk§r\n§1Delusion§r: When the Skill Book is dropped, teleports to the highest block at current coordinates. The dropped book disappears. Cannot teleport onto bedrock.§r\n§9Sleepwalk§r: When the Skill Book is dropped, teleports to spawn location. The dropped book disappears. Teleports to the highest block at (0, 0) if spawn is not set.§r\n§d§l[ Overlord ]§r - Lv1: §3Sealing Tome§r\n§3Sealing Tome§r: Can seal any living entity. Sneak + :light_mouse_right_button: on an entity while holding the Skill Book to seal it. Use on a block to summon the sealed entity. Strong monsters cannot be sealed.§r\n

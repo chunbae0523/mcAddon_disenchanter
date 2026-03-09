@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Essential Abilities+",
+    "description": "Adds essential abilities needed for survival",
+    "min_engine_version": [1, 21, 90],
+    "uuid": "cca19752-c1a4-46e2-b554-4cf9abba875f",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "5e7d4498-dec4-4cce-a7a5-c2bbf604d027",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5df5f381-bde3-4e76-8e01-7887196d7757",
+      "version": [1, 0, 0]
+    }
+  ]
+}

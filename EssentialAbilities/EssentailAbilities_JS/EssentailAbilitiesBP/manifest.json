@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["chunbae0523"],
+    "product_type": "addon"
+  },
+  "header": {
+    "name": "Essential Abilities+",
+    "description": "Adds essential abilities needed for survival",
+    "min_engine_version": [1, 21, 90],
+    "uuid": "5df5f381-bde3-4e76-8e01-7887196d7757",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "18f07776-0e5a-4b3c-b7f5-9270da74e605",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "dcbacf2a-7d32-488b-86e6-5d7f0b8b2182",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "cca19752-c1a4-46e2-b554-4cf9abba875f",
+      "version": [1, 0, 0]
+    }
+  ]
+}
